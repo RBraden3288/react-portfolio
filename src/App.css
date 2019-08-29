@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap');
+
+body {
+    font-family: 'Lora', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h4, h5, h6 {
+    color: white
+}
+
+.home-headings {
+    margin: 30% auto;
+    width: 75%
+}
+
+.home {
+    background-image: url('./images/twotone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto
+}
+
+.links-container {
+    background-color: rgb(242, 242, 242, 0.3);
+    height: 700px;
+    width: 25%;
+    color: #182628;
+    text-align: center;
+}
+
+.links-div {
+    height: 12%;
+    margin: auto;
+    width: 100%;
+    border-top: 1px dashed #3b945e;
+    border-left: 1px dashed #3b945e;
+    padding-top: 6% 
+}
+
+.top {
+    padding-top: 12%
+}
+
+.bottom {
+    height: 10%;
+    border-bottom: 1px dashed #3b945e;
+}
+
+.logo-div-left {
+    margin: auto;
+    width: 50%;
+    float: left;
+}
+
+.logo-div-right {
+    margin: auto;
+    width: 50%;
+    float: right;
+}
+
+.link {
+    text-decoration: none;
+    color: #182628; 
+}
+
+.link:hover {
+    text-decoration: #3b945e overline;
+    color: white
+}
+
+
