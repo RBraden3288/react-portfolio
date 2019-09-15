@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../App.css';
+import './home-style.css';
 import {
     Row,
     Col
 } from 'reactstrap';
-import mark from '../images/GitHub-Mark-32px.png';
-import linkedin from '../images/linkedin2.png';
-import email from '../images/email.png';
-import laptop from '../images/laptop.png';
-import woman from '../images/woman-avatar.png';
+import mark from '../../images/GitHub-Mark-32px.png';
+import linkedin from '../../images/linkedin2.png';
+import email from '../../images/email.png';
+import laptop from '../../images/laptop.png';
+import woman from '../../images/woman-avatar.png';
 
 function Home() {
     return (

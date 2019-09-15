@@ -15,8 +15,8 @@ h4, h5, h6 {
 }
 
 .home-headings {
-    margin: 30% auto;
-    width: 75%
+    margin: 20% auto;
+    width: 60%
 }
 
 .home {
@@ -24,15 +24,18 @@ h4, h5, h6 {
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    width: auto
+    width: auto;
 }
 
 .links-container {
     background-color: rgb(242, 242, 242, 0.3);
     height: 700px;
-    width: 25%;
+    width: 10%;
+    /* height: 100px;
+    width: 100%; */
     color: #182628;
     text-align: center;
+    position: fixed
 }
 
 .links-div {
@@ -55,6 +58,7 @@ h4, h5, h6 {
 
 .logo-div-left {
     margin: auto;
+    padding-left: 10%;
     width: 50%;
     float: left;
 }
@@ -70,9 +74,16 @@ h4, h5, h6 {
     color: #182628; 
 }
 
+a:hover,
 .link:hover {
     text-decoration: #3b945e overline;
     color: white
 }
 
-
+.sub-div {
+    background-color: #edf5e1;
+    height: 400px;
+    padding: 1%;
+    margin: 3% 3% 0% 10%;
+    border-radius: .5%
+}
